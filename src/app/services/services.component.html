@@ -1,0 +1,15 @@
+<div class="services-banner"></div>
+<div class="container page-container">
+    <h2>WE DONT CALL IT SERVICE. WE CALL IT VALUE.</h2>
+    <div class="separator grey-bg mb-3 mt-3"></div>
+    <p>The ideas behind every project comes from a deep understanding of the potential values that a business can generate.</p>
+    <ngb-carousel *ngIf="images">
+        <ng-template ngbSlide *ngFor="let image of images; index as i">
+          <img [src]="images[i]" alt="Random first slide">
+          <div class="carousel-caption">
+            <h3>10 seconds between slides...</h3>
+            <p>This carousel uses customized default values.</p>
+          </div>
+        </ng-template>
+    </ngb-carousel>
+</div>

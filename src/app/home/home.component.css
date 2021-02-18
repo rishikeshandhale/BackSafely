@@ -1,0 +1,37 @@
+
+h2:last-of-type {
+  margin-bottom: 20px;
+}
+
+p {
+  color: #8f8f9e;
+  font-size: 28px;
+}
+
+.sequence-section .sequence {
+  margin-bottom: 185px;
+}
+
+.sequence-section .sequence h3 {
+  color: #ffabb5;
+  font-size: 6em;
+  margin-bottom: 45px;
+  line-height: 80px;
+}
+
+.sequence-section .sequence h4 {
+  margin-bottom: 30px;
+}
+
+.sequence-section .sequence p {
+  font-size: 20px;
+}
+
+.sequence-section h3.grey-clr, .grey-clr {
+  color: #8f8f9e;
+}
+
+img {
+  display: inline-block;
+  width: 100%;
+}

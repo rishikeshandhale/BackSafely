@@ -1,0 +1,14 @@
+
+.services-banner {
+    min-height: 450px;
+    background-color: #ffffff;
+}
+
+.page-container {
+    background-color: transparent;
+    top: -400px;
+}
+
+.page-container p {
+    margin-bottom: 5em;
+}

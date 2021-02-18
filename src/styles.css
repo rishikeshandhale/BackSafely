@@ -1,0 +1,78 @@
+/* You can add global styles to this file, and also import other style files */
+
+@font-face {
+  font-family: 'Brandon Bold';
+  src: url('/assets/fonts/brandon/Brandon_bld.otf');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('/assets/fonts/opensans/OpenSans-Regular.ttf');
+}
+
+body {
+  background-color: #f1f1f7;
+  font-family: 'Brandon Bold';
+}
+
+p, label {
+  font-family: 'Open Sans';
+}
+
+.btn-group-lg > .btn{
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+}
+
+.btn-primary {
+  background-color: #2936ff;
+  color: #FFFFFF;
+  border: 2px solid #2936ff;
+}
+
+.btn-primary:hover, .btn-secondary {
+  background-color: #FFFFFF;
+  border: 2px solid #2936ff;
+  color: #2936ff;
+}
+
+.separator {
+  width: 22px;
+  height: 3px;
+  background-color: #000000;
+  margin-bottom: 40px;
+}
+
+.grey-bg {
+  background-color: #8f8f8e;
+}
+
+.page-container {
+  position: relative;
+  top: -80px;
+  background-color: #FFFFFF;
+  width: 99%;
+  margin-bottom: -80px;
+  padding: 80px;
+}
+
+.page-container.container-fluid {
+  top: 0;
+}
+
+.carousel-indicators {
+  bottom: -50px;
+}
+
+.carousel-indicators li {
+  width: 10px;
+  background-color: transparent;
+  border-radius: 5px;
+  border: 1px solid #2936ff;
+  height: 10px;
+}
+
+.carousel-indicators li.active {
+  background-color: #2936ff;
+}

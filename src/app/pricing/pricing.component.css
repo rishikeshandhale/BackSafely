@@ -1,0 +1,75 @@
+
+.pricing-banner {
+  min-height: 620px;
+  background-color: #ffffff;
+  margin-bottom: -463px;
+}
+
+.pricing-banner + .page-container {
+  background-color: transparent;
+}
+
+.top-section img {
+  width: 100%;
+  height: 350px;
+}
+
+.bottom-section {
+  background-color: #ffffff;
+  padding: 20px;
+}
+
+.bottom-section h5 {
+  color: #8f8f9e;
+  margin-bottom: 15px;
+}
+
+.bottom-section ul  {
+  color: #8f8f9e;
+  font-size: 18px;
+  padding: 0;
+  margin-bottom: 40px;
+  min-height: 280px;
+}
+
+.bottom-section ul li {
+  list-style-type: none;
+  margin: 15px 0;
+}
+
+.bottom-section .price {
+  color: #ffabb5;
+  font-size: 1.4em;
+}
+
+.bottom-section .text {
+  color: #8f8f9e;
+}
+
+.bottom-section button {
+  display: inline-block;
+  margin-top: 30px;
+}
+
+.faq-container {
+  margin-top: 30px;
+}
+
+.faq-container h5, .faq-container .separator {
+  color: #8f8f9e;
+}
+
+.faq-container .separator {
+  margin-bottom: 80px;
+}
+
+.faq-container label {
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.faq-container p {
+  font-size: 1em;
+  color: #8f8f9e;
+  margin-bottom: 80px;
+}

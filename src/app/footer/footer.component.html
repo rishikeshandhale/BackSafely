@@ -1,0 +1,46 @@
+<footer class="mt-5 container-fluid">
+  <div class="top-section">
+    <div class="row">
+      <div class="col-lg-5 col-md-4 col-sm-8 mb-4">
+        <ul class="p-0 d-inline-block">
+          <li>
+            <a routerLink="/work" routerLinkActive="active-link" [routerLinkActiveOptions]="{exact: true}">Work</a>
+          </li>
+          <li>
+            <a routerLink="/services" routerLinkActive="active-link" [routerLinkActiveOptions]="{exact: true}">Services</a> 
+          </li>
+          <li>
+            <a [ngx-scroll-to]="'pricing-section'" routerLink="/pricing" routerLinkActive="active-link" [routerLinkActiveOptions]="{exact: true}">Pricing</a>
+          </li>
+          <li>
+            <a [ngx-scroll-to]="'faq-section'" routerLink="/faq" routerLinkActive="active-link" [routerLinkActiveOptions]="{exact: true}">FAQ</a>
+          </li>
+        </ul>
+        <button class="d-block mr-2 float-right d-sm-none btn btn-secondary scroll-top" [ngx-scroll-to]="'header'">&uarr;</button>
+      </div>
+      <div class="col-lg-5 col-md-4 mb-4">
+        <h3>GET IN TOUCH</h3>
+        <a href="mailto:Backsafely.designs@gmail.com">Backsafely.designs@gmail.com</a>
+        <span class="number">+91-9446398376</span>
+      </div>
+      <div class="col-lg-2 col-md-4 mb-4 d-none d-sm-block">
+        <button class="btn btn-secondary scroll-top" [ngx-scroll-to]="'header'">&uarr;</button>
+      </div>
+    </div>
+  </div>
+  <div class="bottom-section">
+    <div class="row">
+      <div class="col-lg-6 col-md-6 col-sm-12 mt-4">
+        <span>2018 Backsafely. ALL RIGHTS RESERVED.</span>
+      </div>
+      <div class="col-lg-6 col-md-6 col-sm-12 mt-4">
+        <ul>
+          <li class="d-inline-block mr-4"><a href="javascript:void(0);"><img src="assets/images/facebook.png"></a></li>
+          <li class="d-inline-block mr-4"><a href="javascript:void(0);"><img src="assets/images/Insta.png"/></a></li>
+          <li class="d-inline-block mr-4"><a href="javascript:void(0);"><img src="assets/images/linked.png"/></a></li>
+          <li class="d-inline-block"><a href="javascript:void(0);"><img src="assets/images/twitter.png"/></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>

@@ -1,0 +1,125 @@
+<section class="pricing-banner"></section>
+<div class="container page-container">
+  <h2 id="pricing-section">CHOOSE THE PLAN THAT SUITS YOU</h2>
+  <div class="separator grey-bg mb-3 mt-3"></div>
+  <p>We have analyzed the market and came up with 2 exciting plans with features specially handpicked to meet your needs.</p>
+  <div class="row">
+    <div class="col-lg-6">
+      <div class="top-section">
+        <img src="assets/images/pic1.png"/>
+      </div>
+      <div class="bottom-section pt-4 mb-5">
+        <h3>STARTER PLAN</h3>
+        <div class="separator grey-bg mb-4 mt-2"></div>
+        <h5>INCLUDES</h5>
+        <ul>
+          <li>3 designs requests per month</li>
+          <li>Unlimited revisions</li>
+          <li>1 brand</li>
+          <li>Unlimited stock photography</li>
+          <li>Dedicated design team</li>
+          <li>No contract. Cancel anytime</li>
+        </ul>
+        <span class="price">$120</span><span class="text"> / Month</span><br/>
+        <button type="button" class="btn btn-primary" (click)="openModal(content, 'starter')">GO FOR STARTER</button>
+      </div>
+    </div>
+    <div class="col-lg-6">
+      <div class="top-section">
+        <img src="assets/images/pic2.png"/>
+      </div>
+      <div class="bottom-section pt-4 mb-5">
+        <h3>PRO PLAN</h3>
+        <div class="separator grey-bg mb-4 mt-2"></div>
+        <h5>INCLUDES</h5>
+        <ul>
+          <li>Unlimited design requests</li>
+          <li>Unlimited revisions</li>
+          <li>Unlimited brands</li>
+          <li>Unlimited stock photography</li>
+          <li>Website &amp; App design</li>
+          <li>Dedicated design team</li>
+          <li>No contract. Cancel anytime</li>
+        </ul>
+        <span class="price">$450</span><span class="text"> / Month</span><br/>
+        <button type="button" class="btn btn-primary" (click)="openModal(content, 'pro')">GO FOR PRO</button>
+      </div>
+    </div>
+  </div>  
+  <section class="faq-container" id="faq-section">
+    <h5>FEW GENERAL QUESTIONS ANSWERED</h5>
+    <div class="separator"></div>
+    <div class="row">
+      <div class="col-lg-6">
+          <label>Are there any hidden fees?</label>
+          <p>Absolutely no hidden fees. The package price is exactly what you pay on a monthly basis. All taxes and fees are included in that price.</p>
+      </div>
+      <div class="col-lg-6">
+        <label>Do I own rights to all my designs?</label>
+        <p>You will own all rights and licenses to all designs created by us. If we use stock photos, you will also be granted license for that photo. However, materials you provide to us are assumed to be licensed and owned by you. If you provide us with unlicensed materials to use, then we are not held liable for the rights of the final design.</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-6">
+          <label>Are there any restrictions to "Unlimited" design request?</label>
+          <p>We mean it when we say unlimited. You can create as many design requests as you want and your team will work on them at a time. You can even prioritize them so we know which one to work on next.</p>
+      </div>
+      <div class="col-lg-6">
+        <label>How many hours a month will my team work on my projects?</label>
+        <p>We don't work via hour or bill hour. When we promise "Unlimited" we do mean it. The hours we work per month depends on how many projects you submit and how responsive you are with feedback.</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-6">
+          <label>Am I locked into a long-term contract?</label>
+          <p>Not at all, you are enrolled on a month to month basis. You can cancel your plan anytime, however, if you wish to re-enroll there is a $250 enrollment fee to re-enroll you.</p>
+      </div>
+      <div class="col-lg-6">
+        <label>Are you able to completely design iOS/Adroid Apps?</label>
+        <p>Yes, your project manager and our entire team of designers can craft a complete web or app design for your business or startup. However, this process will require an extensive review, revisions, and approval for each page created.</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-6">
+          <label>How long is your turn-around time?</label>
+          <p>Our turn-around time depends on project. Usually it's between 24-48 hours for most projects. More complex design requests such as a website, landing page, or app design will require more time.</p>      
+      </div>
+      <div class="col-lg-6">
+        <label>Do you make canceling difficult?</label>
+        <p>Absolutely not. You don't have to write us a letter, jump through a hoop of fire, or go through 15 pages to find the cancel button. Simply tell your project manager or email us at support@Backsafely.com. The only question we ask if "What could we have done better to keep you?"</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-6">
+          <label>I run multiple businesses. Can I use 1 account?</label>
+          <p class="mb-0">Yes. We understand entrepreneurs nowaday are often busy bees and run multiple businesses/brands at once. So, we built our online software to be easy for you to create and manage design requests for multiple businesses and brands.</p>
+      </div>
+    </div>
+  </section>
+</div>
+
+
+<ng-template #content let-modal>
+  <div class="modal-header">
+    <h4 class="modal-title" id="modal-basic-title">Profile update</h4>
+    <button type="button" class="close" aria-label="Close" (click)="modal.dismiss('Cross click')">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+  <div class="modal-body">
+    <form>
+      <div class="form-group">
+        <label for="dateOfBirth">Date of birth</label>
+        <div class="input-group">
+          <div class="input-group-append">
+            <button class="btn btn-outline-secondary calendar" (click)="dp.toggle()" type="button"></button>
+          </div>
+        </div>
+      </div>
+    </form>
+  </div>
+  <div class="modal-footer">
+    <button type="button" class="btn btn-outline-dark" (click)="modal.close('Save click')">Save</button>
+  </div>
+</ng-template>
+
